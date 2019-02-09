@@ -1,3 +1,148 @@
 <resources>
-    <string name="app_name">TourGuide</string>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">EGYPT GUIDE</string>
+
+    <!-- Category name for Attractions [CHAR LIMIT=20] -->
+    <string name="attractions">Attractions</string>
+
+    <!-- Category name for Beaches [CHAR LIMIT=20] -->
+    <string name="beaches">Beaches</string>
+
+    <!-- Category name for Playing Song Now [CHAR LIMIT=20] -->
+    <string name="playing">Listening Now</string>
+
+    <!-- region Attractions -->
+    <!-- Attraction first Place [CHAR LIMIT=100] -->
+    <string name="attraction_1">Mosque of Ibn Tulun</string>
+
+    <!-- Attraction One Place [CHAR LIMIT=50] -->
+    <string name="attraction_1_location">Cairo</string>
+
+    <!-- Attraction One Description [CHAR LIMIT=50] -->
+    <string name="attraction_1_desc">The mosque is constructed around a courtyard, with one covered hall on each of the four sides.</string>
+
+    <!-- Attraction Second Place [CHAR LIMIT=100] -->
+    <string name="attraction_2">River Nile Cruise</string>
+
+    <!-- Attraction 2 Place [CHAR LIMIT=50] -->
+    <string name="attraction_2_location">Egypt</string>
+
+    <!-- Attraction 2 Description [CHAR LIMIT=50] -->
+    <string name="attraction_2_desc">Cruising the Nile is a popular way of visiting upper Egypt. The Nile River has been Egypt’s lifeline since ancient times.</string>
+
+    <!-- Attraction Third Place [CHAR LIMIT=100] -->
+    <string name="attraction_3">Giza Necropolis</string>
+
+    <!-- Attraction 3 Place [CHAR LIMIT=50] -->
+    <string name="attraction_3_location">Giza</string>
+
+    <!-- Attraction 3 Description [CHAR LIMIT=50] -->
+    <string name="attraction_3_desc">The Pyramids of Giza, situated in the immediate vicinity of the southwestern suburbs of Cairo are the top attractions in Egypt.</string>
+
+    <!-- Attraction Fourth Place [CHAR LIMIT=100] -->
+    <string name="attraction_4">Karnak Temple</string>
+
+    <!-- Attraction 4 Place [CHAR LIMIT=50] -->
+    <string name="attraction_4_location">Luxor</string>
+
+    <!-- Attraction 4 Description [CHAR LIMIT=50] -->
+    <string name="attraction_4_desc">Although badly ruined, few sites in Egypt are more impressive than Karnak. It is the largest ancient religious site ever built.</string>
+
+    <!-- Attraction Fifth Place [CHAR LIMIT=100] -->
+    <string name="attraction_5">Red Sea Reef</string>
+
+    <!-- Attraction 5 Place [CHAR LIMIT=50] -->
+    <string name="attraction_5_location">Between Africa and Asia</string>
+
+    <!-- Attraction 5 Description [CHAR LIMIT=50] -->
+    <string name="attraction_5_desc">The Red Sea, off the coast of Egypt, is one of the most beautiful places in the world to go diving.</string>
+
+    <!-- Attraction Sixth Place [CHAR LIMIT=100] -->
+    <string name="attraction_6">Abu Simbel Temple</string>
+
+    <!-- Attraction 6 Place [CHAR LIMIT=50] -->
+    <string name="attraction_6_location">Lake Nasser, Aswan</string>
+
+    <!-- Attraction 6 Description [CHAR LIMIT=50] -->
+    <string name="attraction_6_desc">Abu Simbel is an archaeological site comprising two massive rock-cut temples in southern Egypt.</string>
+
+    <!-- Attraction Seventh Place [CHAR LIMIT=100] -->
+    <string name="attraction_7">Siwa Oasis</string>
+
+    <!-- Attraction 7 Place [CHAR LIMIT=50] -->
+    <string name="attraction_7_location">Libyan Desert</string>
+
+    <!-- Attraction 7 Description [CHAR LIMIT=50] -->
+    <string name="attraction_7_desc">Siwa Oasis is one of Egypt’s isolated settlements, with 23,000 people, mostly ethnic Berbers. Located on an old date trade route.</string>
+
+    <!--endregion-->
+
+    <!-- region Beaches -->
+    <!-- First Beach [CHAR LIMIT=100] -->
+    <string name="beach_1">Mahmya Island</string>
+
+    <!-- Beach One Location [CHAR LIMIT=50] -->
+    <string name="beach_1_location">Hurghada</string>
+
+    <!-- Beach One Description [CHAR LIMIT=50] -->
+    <string name="beach_1_desc">If you are looking for a scuba diving Shangri La,Mahmya Island in the Giftun Island National Park is the place for you.</string>
+
+    <!-- Second Beach [CHAR LIMIT=100] -->
+    <string name="beach_2">Agiba Beach</string>
+
+    <!-- Beach 2 Location [CHAR LIMIT=50] -->
+    <string name="beach_2_location">Mersa Matruh</string>
+
+    <!-- Beach 2 Description [CHAR LIMIT=100] -->
+    <string name="beach_2_desc">This very iconic Egyptian beach may not be so well known by travelers from outside of the country. Meaning Miracle in Arabic.</string>
+
+    <!-- Third Beach [CHAR LIMIT=100] -->
+    <string name="beach_3">El Gouna</string>
+
+    <!-- Beach 3 Location [CHAR LIMIT=50] -->
+    <string name="beach_3_location">The Northern Red Sea</string>
+
+    <!-- Beach 3 Description [CHAR LIMIT=100] -->
+    <string name="beach_3_desc">El Gouna, meaning ‘lagoon’ in Arabic, is a chic and stylish beach on the northern Red Sea on Egypt’s eastern coast.</string>
+
+    <!-- Fourth Beach [CHAR LIMIT=100] -->
+    <string name="beach_4">Ras Um Sid</string>
+
+    <!-- Beach 4 Location [CHAR LIMIT=50] -->
+    <string name="beach_4_location">Sharm El Sheikh</string>
+
+    <!-- Beach 4 Description [CHAR LIMIT=100] -->
+    <string name="beach_4_desc"> Ras Um Sid is an attractive beach filled with a variety of things to do. Boasting incredible views of the Red Sea.</string>
+
+    <!-- Beach Fifth Place [CHAR LIMIT=100] -->
+    <string name="beach_5">Ras Abu Galoum</string>
+
+    <!-- Beach 5 Location [CHAR LIMIT=50] -->
+    <string name="beach_5_location">Dahab</string>
+
+    <!-- Beach 5 Description [CHAR LIMIT=100] -->
+    <string name="beach_5_desc">If you are looking for a stunning spot to do some snorkeling or diving, then Ras Abu Galoum is a brilliant choice.</string>
+
+    <!-- Beach Sixth Place [CHAR LIMIT=100] -->
+    <string name="beach_6">Fjord Bay</string>
+
+    <!-- Beach 6 Location [CHAR LIMIT=50] -->
+    <string name="beach_6_location">The small Egyptian town of Taba</string>
+
+    <!-- Beach 6 Description [CHAR LIMIT=100] -->
+    <string name="beach_6_desc"> Fjord Bay is the ideal location for diving, whether you have more of diving experience under your belt.</string>
+
+    <!-- Beach Seventh Place [CHAR LIMIT=100] -->
+    <string name="beach_7">Nuweiba</string>
+
+    <!-- Beach 7 Location [CHAR LIMIT=50] -->
+    <string name="beach_7_location">The eastern of Sinai Peninsula</string>
+
+    <!-- Beach 7 Description [CHAR LIMIT=100] -->
+    <string name="beach_7_desc">Nuweiba was a thriving beach in the 1970’s, meant that the beautiful beach was left to slide into decline.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--endregion-->
+
 </resources>

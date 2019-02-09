@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/place_item_height"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/place_art"
+            android:layout_width="@dimen/place_item_height"
+            android:layout_height="@dimen/place_item_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/attraction_1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/place_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                tools:text="@string/attraction_1" />
+
+            <TextView
+                android:id="@+id/place_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/text_background"
+                tools:text="@string/attraction_1_location" />
+
+            <TextView
+                android:id="@+id/place_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/colorAccent"
+                tools:text="@string/attraction_1_desc" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
