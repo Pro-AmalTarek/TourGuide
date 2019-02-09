@@ -8,8 +8,8 @@
     <!-- Category name for Beaches [CHAR LIMIT=20] -->
     <string name="beaches">Beaches</string>
 
-    <!-- Category name for Playing Song Now [CHAR LIMIT=20] -->
-    <string name="playing">Listening Now</string>
+    <!-- Category name for Restaurants [CHAR LIMIT=20] -->
+    <string name="restaurants">Restaurants</string>
 
     <!-- region Attractions -->
     <!-- Attraction first Place [CHAR LIMIT=100] -->
@@ -141,8 +141,55 @@
     <!-- Beach 7 Description [CHAR LIMIT=100] -->
     <string name="beach_7_desc">Nuweiba was a thriving beach in the 1970’s, meant that the beautiful beach was left to slide into decline.</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <!--endregion-->
 
+    <!-- region Restaurants -->
+    <!-- First Restaurant [CHAR LIMIT=100] -->
+    <string name="restaurant_1">Il Piccolo Mondo</string>
+
+    <!-- Restaurant One Location [CHAR LIMIT=50] -->
+    <string name="restaurant_1_location">Le Pacha 1901, Zamalek</string>
+
+    <!-- Second Restaurant [CHAR LIMIT=100] -->
+    <string name="restaurant_2">Maison Thomas</string>
+
+    <!-- Restaurant 2 Location [CHAR LIMIT=50] -->
+    <string name="restaurant_2_location">Zamalek</string>
+
+    <!-- Third Restaurant [CHAR LIMIT=100] -->
+    <string name="restaurant_3">OAK Grill</string>
+
+    <!-- Restaurant 3 Location [CHAR LIMIT=50] -->
+    <string name="restaurant_3_location">Conrad Hotel, Nile Corniche</string>
+
+    <!-- Fourth Restaurant [CHAR LIMIT=100] -->
+    <string name="restaurant_4">Abou El Sid</string>
+
+    <!-- Restaurant 4 Location [CHAR LIMIT=50] -->
+    <string name="restaurant_4_location">Zamalek</string>
+
+    <!-- Restaurant Fifth Place [CHAR LIMIT=100] -->
+    <string name="restaurant_5">Tabla LUNA</string>
+
+    <!-- Restaurant 5 Location [CHAR LIMIT=50] -->
+    <string name="restaurant_5_location">Maadi</string>
+
+    <!-- Restaurant Sixth Place [CHAR LIMIT=100] -->
+    <string name="restaurant_6">Andrea</string>
+
+    <!-- Restaurant 6 Location [CHAR LIMIT=50] -->
+    <string name="restaurant_6_location">New Giza</string>
+
+    <!-- Restaurant Seventh Place [CHAR LIMIT=100] -->
+    <string name="restaurant_7">Fasahet Somaya</string>
+
+    <!-- Restaurant 7 Location [CHAR LIMIT=50] -->
+    <string name="restaurant_7_location">15 Youssef al-Guindi St</string>
+
+    <!-- Restaurant Eighth Place [CHAR LIMIT=100] -->
+    <string name="restaurant_8">Zitouni</string>
+
+    <!-- Restaurant 8 Location [CHAR LIMIT=50] -->
+    <string name="restaurant_8_location">1089 Corniche El Nil</string>
+    <!--endregion-->
 </resources>
