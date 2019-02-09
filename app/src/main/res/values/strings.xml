@@ -11,6 +11,9 @@
     <!-- Category name for Restaurants [CHAR LIMIT=20] -->
     <string name="restaurants">Restaurants</string>
 
+    <!-- Category name for Hotels [CHAR LIMIT=20] -->
+    <string name="hotels">Hotels</string>
+
     <!-- region Attractions -->
     <!-- Attraction first Place [CHAR LIMIT=100] -->
     <string name="attraction_1">Mosque of Ibn Tulun</string>
@@ -191,8 +194,55 @@
 
     <!-- Restaurant 8 Location [CHAR LIMIT=50] -->
     <string name="restaurant_8_location">1089 Corniche El Nil</string>
+    <!--endregion-->
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- region Hotels -->
+    <!-- First Hotel [CHAR LIMIT=100] -->
+    <string name="hotel_1">Kempinski Hotel Soma Bay</string>
+
+    <!-- Hotel One Location [CHAR LIMIT=50] -->
+    <string name="hotel_1_location">Hurghada, Red Sea</string>
+
+    <!-- Second Hotel [CHAR LIMIT=100] -->
+    <string name="hotel_2">InterContinental Citystars</string>
+
+    <!-- Hotel 2 Location [CHAR LIMIT=50] -->
+    <string name="hotel_2_location">Cairo</string>
+
+    <!-- Third Hotel [CHAR LIMIT=100] -->
+    <string name="hotel_3">The Oberoi Sahl Hasheesh</string>
+
+    <!-- Hotel 3 Location [CHAR LIMIT=50] -->
+    <string name="hotel_3_location">Hurghada, Red Sea</string>
+
+    <!-- Fourth Hotel [CHAR LIMIT=100] -->
+    <string name="hotel_4">Four Seasons Hotel</string>
+
+    <!-- Hotel 4 Location [CHAR LIMIT=50] -->
+    <string name="hotel_4_location">Sharm El Sheikh</string>
+
+    <!-- Hotel Fifth Place [CHAR LIMIT=100] -->
+    <string name="hotel_5">Sofitel Legend Old Cataract Aswan</string>
+
+    <!-- Hotel 5 Location [CHAR LIMIT=50] -->
+    <string name="hotel_5_location">Aswan</string>
+
+    <!-- Hotel Sixth Place [CHAR LIMIT=100] -->
+    <string name="hotel_6">Kempinski Nile Hotel Garden City</string>
+
+    <!-- Hotel 6 Location [CHAR LIMIT=50] -->
+    <string name="hotel_6_location">Cairo</string>
+
+    <!-- Hotel Seventh Place [CHAR LIMIT=100] -->
+    <string name="hotel_7">Concorde El Salam Hotel</string>
+
+    <!-- Hotel 7 Location [CHAR LIMIT=50] -->
+    <string name="hotel_7_location">Cairo</string>
+
+    <!-- Hotel Eighth Place [CHAR LIMIT=100] -->
+    <string name="hotel_8">Le Meridien Pyramids</string>
+
+    <!-- Hotel 8 Location [CHAR LIMIT=50] -->
+    <string name="hotel_8_location">Cairo</string>
     <!--endregion-->
 </resources>

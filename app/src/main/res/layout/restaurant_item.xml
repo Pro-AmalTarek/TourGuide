@@ -10,12 +10,12 @@
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="10dp">
+        app:cardCornerRadius="@dimen/margin_10">
         <ImageView
             android:id="@+id/place_art"
             android:layout_width="match_parent"
             android:layout_height="@dimen/place_item_height"
-            android:scaleType="fitXY"
+            android:scaleType="centerCrop"
             android:src="@drawable/restaurant_1"/>
     </android.support.v7.widget.CardView>
 
