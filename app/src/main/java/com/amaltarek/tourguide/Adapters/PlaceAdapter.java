@@ -24,9 +24,13 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        if(convertView == null)
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.attraction_item, parent, false);
         Place currentPlace = getItem(position);
+        if(convertView == null){
+            if (currentPlace.hasDesc())
+                convertView = LayoutInflater.from(getContext()).inflate(R.layout.attraction_item, parent, false);
+            else
+                convertView = LayoutInflater.from(getContext()).inflate(R.layout.restaurant_item, parent, false);
+        }
 
         // Get the UI Place and fill Content
         ImageView placeArt = convertView.findViewById(R.id.place_art);
@@ -38,8 +42,10 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         TextView placeLocation = convertView.findViewById(R.id.place_location);
         placeLocation.setText(currentPlace.getLocationName());
 
-        TextView placeDesc = convertView.findViewById(R.id.place_desc);
-        placeDesc.setText(currentPlace.getPlaceDesc());
+        if (currentPlace.hasDesc()){
+            TextView placeDesc = convertView.findViewById(R.id.place_desc);
+            placeDesc.setText(currentPlace.getPlaceDesc());
+        }
 
         return convertView;
     }

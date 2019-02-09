@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/place_item_height">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+        <ImageView
+            android:id="@+id/place_art"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/place_item_height"
+            android:scaleType="fitXY"
+            android:src="@drawable/restaurant_1"/>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/place_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:text="@string/restaurant_1"/>
+
+    <TextView
+        android:id="@+id/place_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/text_background"
+        tools:text="@string/restaurant_1_location"/>
+
+</LinearLayout>

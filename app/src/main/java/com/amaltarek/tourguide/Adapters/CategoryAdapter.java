@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import com.amaltarek.tourguide.Fragments.AttractionFragment;
 import com.amaltarek.tourguide.Fragments.BeachFragment;
+import com.amaltarek.tourguide.Fragments.RestaurantFragment;
 import com.amaltarek.tourguide.R;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
@@ -30,8 +31,10 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if(position == 0){
             return new AttractionFragment();
-        }else{
+        }else if(position == 1){
             return new BeachFragment();
+        }else{
+            return new RestaurantFragment();
         }
     }
 
@@ -41,7 +44,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      */
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 
     /**
@@ -54,8 +57,10 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         if(position == 0){
             return mContext.getString(R.string.attractions);
-        }else{
+        }else if (position == 1){
             return mContext.getString(R.string.beaches);
+        } else{
+            return mContext.getString(R.string.restaurants);
         }
     }
 }

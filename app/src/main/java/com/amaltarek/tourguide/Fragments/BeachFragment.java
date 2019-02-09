@@ -34,7 +34,7 @@ public class BeachFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView =  inflater.inflate(R.layout.fragment_beach, container, false);
 
-        // Create ArrayList of Attractions
+        // Create ArrayList of Beaches
         final ArrayList<Place> beaches = new ArrayList<>();
         beaches.add(new Place(R.drawable.beach_1, R.string.beach_1, R.string.beach_1_location,  R.string.beach_1_desc));
         beaches.add(new Place(R.drawable.beach_2, R.string.beach_2, R.string.beach_2_location,  R.string.beach_2_desc));
@@ -44,7 +44,7 @@ public class BeachFragment extends Fragment {
         beaches.add(new Place(R.drawable.beach_6, R.string.beach_6, R.string.beach_6_location,  R.string.beach_6_desc));
         beaches.add(new Place(R.drawable.beach_7, R.string.beach_7, R.string.beach_7_location,  R.string.beach_7_desc));
 
-        // to Shuffle ArrayList of Attractions every time open the App
+        // to Shuffle ArrayList of Beaches every time open the App
         Collections.shuffle(beaches);
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Song}s.
@@ -56,7 +56,7 @@ public class BeachFragment extends Fragment {
         // Make the {@link ListView} use the {@link PlaceAdapter} we created above.
         beachesList.setAdapter(adapter);
 
-        // Set a click listener of attraction list if user click on item in it
+        // Set a click listener of beach list if user click on item in it
         beachesList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
